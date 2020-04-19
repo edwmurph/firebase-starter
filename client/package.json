@@ -1,0 +1,18 @@
+{
+  "name": "client",
+  "description": "minimal starter for a Gatsby project",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "gatsby develop -p 8001",
+    "build": "gatsby build",
+    "clean": "rm -rf .cache && rm -rf public"
+  },
+  "dependencies": {
+    "axios": "0.19.2",
+    "firebase": "7.14.1",
+    "firebaseui": "4.5.0",
+    "gatsby": "2.20.25",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  }
+}

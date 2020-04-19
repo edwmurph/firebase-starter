@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import constants from '../constants';
+import constants from '../../constants';
 
 const useAPI = ({ base = constants.SERVER, route, defaultData = null }) => {
   const [data, setData] = useState(defaultData);
