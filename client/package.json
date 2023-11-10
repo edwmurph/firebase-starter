@@ -8,7 +8,7 @@
     "clean": "rm -rf .cache && rm -rf public"
   },
   "dependencies": {
-    "axios": "0.19.2",
+    "axios": "1.6.0",
     "firebase": "7.14.1",
     "firebaseui": "4.5.0",
     "gatsby": "2.20.25",
